@@ -6,8 +6,15 @@ header{
     background-color: white;
    
     display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
     
 }
+
 
 .logo{
     background-image: url(logo.png);
@@ -18,14 +25,28 @@ header{
     margin-top: 10px;
     margin-left: 10%;
 
-
+}
+ul li:hover
+{
+    opacity: .5;
+    list-style: none;
+    
+}
+ul{
+    list-style-type: none;
 
 }
-.btn{
-    flex: 1;
-
+ul li
+{
+    float: left;
+    padding-left: 30px;
+    color: blue;
+}
+.menu{
+    flex: 2;
 
 }
+
 .all{
     
     
@@ -45,15 +66,18 @@ header{
     
 }
 .yazi{
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-left: 200px ;
     padding-top: 100px;
+    word-spacing: 1px;
    
 
 }
 
 .sag{
     
-
+    padding: 10px;
     
     flex: 1;
     justify-content: flex-end;
@@ -61,14 +85,26 @@ header{
 }
 
 .ikinci{
+    display: flex;
+
 
 }
 .sol2{
+    flex: 1
+
 
 }
 .sag2{
+    flex: 1
+
 
 }
 .yazi2{
+    
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 200px ;
+    padding-top: 100px;
+    word-spacing: 1px;
 
 }
