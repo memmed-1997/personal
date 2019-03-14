@@ -1,0 +1,74 @@
+
+header{
+    
+    width: auto;
+    height: 60px;
+    background-color: white;
+   
+    display: flex;
+    
+}
+
+.logo{
+    background-image: url(logo.png);
+   width: auto;
+   height: 50px;
+   background-repeat: no-repeat;
+    flex: 1;
+    margin-top: 10px;
+    margin-left: 10%;
+
+
+
+}
+.btn{
+    flex: 1;
+
+
+}
+.all{
+    
+    
+}
+.birinci{
+    display: flex;
+    background-color: rgba(216, 209, 200, 0.514);
+    width: 1335px;
+    height: 105%;
+    
+}
+
+
+.sol{
+    flex: 1;
+    
+    
+}
+.yazi{
+    padding-left: 200px ;
+    padding-top: 100px;
+   
+
+}
+
+.sag{
+    
+
+    
+    flex: 1;
+    justify-content: flex-end;
+    
+}
+
+.ikinci{
+
+}
+.sol2{
+
+}
+.sag2{
+
+}
+.yazi2{
+
+}
